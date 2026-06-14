@@ -6,7 +6,7 @@ programa
 		real n1, n2, n3
 		real primeiro = 0.0, segundo = 0.0, terceiro = 0.0
 
-		//Inserção de valores nas váriávei correspondentes aos números
+		//Inserção de valores nas váriáveis correspondentes aos números
 		escreva("Insira 3 números para serem ordenados decrescentemente:\n")
 		escreva("Primeiro: ")
 		leia(n1)
