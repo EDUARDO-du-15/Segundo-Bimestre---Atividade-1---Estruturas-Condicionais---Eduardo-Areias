@@ -1,4 +1,5 @@
 a. ( verdadeiro ) 2 * 4 == 24/3
+
 b. ( falso ) (15 % 4) < (19 % 6)
 c. ( verdadeiro ) nao(2 < 5) != (8 == 8)
 d. ( verdadeiro ) verdadeiro ou falso
