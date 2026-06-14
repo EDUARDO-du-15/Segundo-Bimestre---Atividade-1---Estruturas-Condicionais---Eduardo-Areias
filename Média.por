@@ -1,0 +1,42 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real nota1, nota2, media
+
+		//Leitura de valores atribuídos às variáveis (referentes às notas) pelo usuário
+		escreva("Insira a primeira nota: ")
+		leia(nota1)
+		escreva("\nInsira a segunda nota: ")
+		leia(nota2)
+
+		//Cálculo da média
+		media = (nota1 + nota2) / 2
+
+		//Verificação dos valores (se estão corretos) e uso de condicionais para determinar a aprovação ou reprovação
+		se((nota1 >= 0) e (nota1 <= 10) e (nota2 >= 0) e (nota2 <= 10)){
+			se((media >= 7.0) e (media != 10.0)){
+				escreva("\nAprovado")
+			}senao se(media < 7){
+				escreva("\nReprovado")
+			}senao se(media == 10.0){
+				escreva("\nAprovado com distinção")
+			}
+			escreva(", com média de: ", media)
+		}senao{
+			escreva("\nAlguma nota foi inserida de forma incorreta, reinicie o programa para reinserir")
+		}
+	}
+}
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 825; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
